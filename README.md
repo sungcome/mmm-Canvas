@@ -1,4 +1,4 @@
-# MagicMirror Canvas
+# MagicMirror Canvas tester
 This is a module for `MagicMirror²` which displays upcoming assignments from the Canvas LMS. The Canvas LMS is used by colleges, universities and other institutions for coursework.
 
 ## Installation
