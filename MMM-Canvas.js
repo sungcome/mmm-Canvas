@@ -79,13 +79,11 @@ Module.register("MMM-Canvas", {
         newElement.classList.add("align-left", "small");
         newElement1.classList.add("align-right", "small");
         if (CANVAS[1][i][0] != "") {
-          newElement.innerHTML = CANVAS[1][i][0].slice(0, this.config.assignMaxLen);
-          var m = moment(CANVAS[1][i][1]);
-          //newElement1.innerHTML = m.format("M/D h:mm A");
-          //newElement1.innerHTML = m.format("M/D h:mm A");
-          newElement1.innerHTML = CANVAS[1][i][2];
-          newElement1.style.color = this.config.colors[CANVAS[1][i][2]];
-          newElement.style.color = this.config.colors[CANVAS[1][i][2]];
+            newElement.innerHTML = CANVAS[1][i][0].slice(0, this.config.assignMaxLen);
+            var m = moment(CANVAS[1][i][1]);
+            newElement1.innerHTML = m.format("M/D h:mm A");
+            newElement1.style.color = this.config.colors[CANVAS[1][i][2]];
+            newElement.style.color = this.config.colors[CANVAS[1][i][2]];
         }
 
 
